@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="172F1DBC-ECCB-E73E-8B4C-D5B6CA373638" name="Dependente">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-05-15 23:43:47 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="5BE7F945-340A-CAF0-E693-03B432C49413" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Dependente</preferredAbbreviation>
+<synonymToDisplay>Dependente</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfTitular" id="40F71766-F292-C613-5630-813DCC5085EA">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-05-15 23:43:47 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="5BE7F945-340A-CAF0-E693-03B432C49413" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDependente" id="6AA3B518-BF15-84D9-A72C-CFB8BB59F131">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-05-15 23:44:31 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="5BE7F945-340A-CAF0-E693-03B432C49413" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeDependente" id="6C037097-6DD0-9CD6-0CC4-D51414233B5E">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-05-15 23:43:47 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="5BE7F945-340A-CAF0-E693-03B432C49413" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascimentoDependente" id="9C332AE7-BE38-03C4-DB3A-C2B5BCCB2FCC">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-05-15 23:43:47 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="5BE7F945-340A-CAF0-E693-03B432C49413" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grauDeParentesco" id="44F69DE1-D928-35DF-9621-45DF3D374B88">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-05-15 23:45:41 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="5BE7F945-340A-CAF0-E693-03B432C49413" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular1" id="3682ACE0-3DA1-F4B5-EB28-1FED829C17C2">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-05-16 00:00:39 UTC</createdTime>
+<generatorID>19EA4094-6469-8973-05DF-59B2D7F9C74B</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="5BE7F945-340A-CAF0-E693-03B432C49413" value="true"/>
+</engineerTo>
+<referedAttribute>77804743-0C84-16C8-A324-74C597DA1181</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="B34D798B-A129-B4BC-B038-DB682ED46136">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-05-16 00:26:38 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>4EDBFB81-C8C2-98FB-DC6C-FF32A3D605C9</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="5BE7F945-340A-CAF0-E693-03B432C49413" value="true"/>
+</engineerTo>
+<referedAttribute>02BD36ED-3793-A586-92D5-6DD8BA929A52</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cepEndereco" id="2B887DF8-D187-991F-BB65-7971B979685A">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-05-16 00:26:38 UTC</createdTime>
+<comment><![CDATA[CEP: Código de Endereçamento Postal, composto por oito números que identificam a região, o setor, o município, e outras informações importantes para a entrega.]]></comment>
+<generatorID>4EDBFB81-C8C2-98FB-DC6C-FF32A3D605C9</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="5BE7F945-340A-CAF0-E693-03B432C49413" value="true"/>
+</engineerTo>
+<referedAttribute>26E9CB12-DD7D-BFA1-68FE-7CB1B39B0FAF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ADA866AC-C7EA-FBC8-B64D-A40577E5D9CD" name="Titular PK">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-05-15 23:43:47 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="5BE7F945-340A-CAF0-E693-03B432C49413" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>40F71766-F292-C613-5630-813DCC5085EA</attributeRef>
+<attributeRef>6AA3B518-BF15-84D9-A72C-CFB8BB59F131</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EnderecoTitular" directorySegmentName="seg_0" id="1D85262D-87B1-2B0D-451B-A9223C04894B">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-05-16 00:25:53 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="5BE7F945-340A-CAF0-E693-03B432C49413" value="true"/>
+</engineerTo>
+<sourcePk>E03B6CD5-4EA4-B1E3-F6F3-FC4B59363F18</sourcePk>
+<targetPk>009941CB-4976-1F0F-8E27-7A2C0099E580</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>42587879-EBF5-A142-B563-073B9ED5E504</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>17FAA88B-4D80-1A97-C1E3-9696EA3BD348</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

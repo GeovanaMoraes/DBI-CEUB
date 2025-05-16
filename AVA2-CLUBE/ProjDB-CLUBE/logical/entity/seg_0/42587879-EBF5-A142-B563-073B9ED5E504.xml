@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="42587879-EBF5-A142-B563-073B9ED5E504" name="Titular">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-05-15 23:26:00 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="5BE7F945-340A-CAF0-E693-03B432C49413" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Titular</preferredAbbreviation>
+<synonymToDisplay>Titular</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfTitular" id="77804743-0C84-16C8-A324-74C597DA1181">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-05-15 23:27:02 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="5BE7F945-340A-CAF0-E693-03B432C49413" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeTitular" id="0B11049A-0461-0748-56C1-D95EED817A72">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-05-15 23:27:47 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="5BE7F945-340A-CAF0-E693-03B432C49413" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascimento" id="E47DC9FC-58C8-B713-740C-78D08B6EBA0B">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-05-15 23:28:36 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="5BE7F945-340A-CAF0-E693-03B432C49413" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="38B06243-3B06-0D32-7F10-C1B8F5BA081F">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-05-16 00:26:12 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>1D85262D-87B1-2B0D-451B-A9223C04894B</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="5BE7F945-340A-CAF0-E693-03B432C49413" value="true"/>
+</engineerTo>
+<referedAttribute>02BD36ED-3793-A586-92D5-6DD8BA929A52</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cepEndereco" id="F0B8E409-BCF5-DA92-8539-8FF05F9D757A">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-05-16 00:26:12 UTC</createdTime>
+<comment><![CDATA[CEP: Código de Endereçamento Postal, composto por oito números que identificam a região, o setor, o município, e outras informações importantes para a entrega.]]></comment>
+<generatorID>1D85262D-87B1-2B0D-451B-A9223C04894B</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="5BE7F945-340A-CAF0-E693-03B432C49413" value="true"/>
+</engineerTo>
+<referedAttribute>26E9CB12-DD7D-BFA1-68FE-7CB1B39B0FAF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E03B6CD5-4EA4-B1E3-F6F3-FC4B59363F18" name="Titular PK">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-05-15 23:27:43 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="5BE7F945-340A-CAF0-E693-03B432C49413" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>77804743-0C84-16C8-A324-74C597DA1181</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="27D57653-7EAC-3EFE-3F21-83CF15315A37" name="Mensalidade">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-05-15 23:39:19 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="5BE7F945-340A-CAF0-E693-03B432C49413" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Mensalidade</preferredAbbreviation>
+<synonymToDisplay>Mensalidade</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfTitular" id="D56E4143-575B-DF18-0235-7DA2C4292426">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-05-15 23:39:37 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="5BE7F945-340A-CAF0-E693-03B432C49413" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="referenciaMensalidade" id="75A9DBC0-28AD-CADB-3C53-73CC737070EE">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-05-15 23:42:39 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="5BE7F945-340A-CAF0-E693-03B432C49413" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valorMensalidade" id="94AFA7D5-2C14-1C9E-1712-6D2B7BED82A1">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-05-15 23:39:58 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="5BE7F945-340A-CAF0-E693-03B432C49413" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vencimentoMensalidade" id="835234C0-E265-3293-6336-7C566476FC1D">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-05-15 23:56:23 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="5BE7F945-340A-CAF0-E693-03B432C49413" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular1" id="7923A915-E32D-EBF7-766A-7C679FEED8A4">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-05-16 00:27:23 UTC</createdTime>
+<generatorID>0E021C0A-85FB-C129-8E74-9B33C0C749CB</generatorID>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="5BE7F945-340A-CAF0-E693-03B432C49413" value="true"/>
+</engineerTo>
+<referedAttribute>77804743-0C84-16C8-A324-74C597DA1181</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="statusQuitacao" id="1E963C89-9740-451A-2316-E8BD0E814812">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-05-16 00:31:01 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="5BE7F945-340A-CAF0-E693-03B432C49413" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E41D02BD-339F-583B-CB19-A3A037AF8C1C" name="Mensalidade PK">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-05-15 23:39:54 UTC</createdTime>
+<ownerDesignName>ProjDB-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="5BE7F945-340A-CAF0-E693-03B432C49413" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D56E4143-575B-DF18-0235-7DA2C4292426</attributeRef>
+<attributeRef>75A9DBC0-28AD-CADB-3C53-73CC737070EE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
